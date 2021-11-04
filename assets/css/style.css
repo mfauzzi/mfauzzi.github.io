@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  font-family: "Lora";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  background-image: url("../img/footer.jpg");
+  height: 750px;
+  background-size: cover;
+  text-align: center;
+}
+.text {
+  display: inline-block;
+  color: white;
+  margin-top: 350px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+nav img {
+  border: none;
+  box-shadow: none;
+  width: 400px;
+  margin-top: 80px;
+  margin-left: -20px;
+}
+.link-sm {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foto {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: center;
+}
+button.btn-primary {
+  background-color: transparent;
+  padding: 16px 70px;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+  font-size: 20px;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+.column-hero img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.column-text {
+  padding-top: 124px;
+  width: 45%;
+}
+h1.foto-heading {
+  font-size: 52px;
+  color: #000000;
+}
+p.text {
+  margin: 24px 0;
+  font-size: 20px;
+  line-height: 28px;
+  height: 64px;
+  color: black;
+}
+button.btn-secondary {
+  background-color: black;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 20px;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+button:active {
+  transform: scale(1.1);
+}
+.title-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+.col-title-2 {
+  width: 65%;
+}
+h1.tog-heading-2 {
+  font-size: 25px;
+}
+p.tog-text-2 {
+  font-family: "Open Sans";
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px auto;
+}
+.col-tog-2 img {
+  width: 200px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.cards {
+  border: none;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+button.btn-primary1 {
+  background-color: white;
+  padding: 10px 40px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+button.btn-primary2 {
+  background-color: black;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 1px white;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+.nav-porto {
+  text-align: center;
+  margin-top: 20vh;
+}
+.img-project {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+}
+img {
+  width: 490px;
+  border-style: solid;
+  margin: 0px 10px;
+  box-shadow: 10px 10px 10px black;
+}
+.heading-ser {
+  margin-top: 20vh;
+  text-align: center;
+}
+.title-services img {
+  width: 50px;
+  border: none;
+  margin-top: 40px;
+}
+.row-3-col {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2em 6em;
+}
+.title-services {
+  text-align: center;
+  border-style: solid;
+  color: white;
+  margin: 0px 10px;
+  background-color: black;
+  box-shadow: 10px 10px 10px black;
+}
+.title-services h4 {
+  margin: 20px;
+}
+.title-services p {
+  margin: 20px;
+}
+.banner {
+  margin-top: 120px;
+  background-color: black;
+  position: absolute;
+  width: 1440px;
+  height: 230px;
+  left: -1px;
+}
+.contact-me {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+hr {
+  width: 20%;
+  margin: 20px 78vh;
+}
+.contact-me img {
+  width: 20px;
+  border: none;
+}
+.row-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row-3 a {
+  text-decoration: none;
+  color: white;
+}
+.garis-bawah {
+  width: 100%;
+  margin-left: 0px;
+}
